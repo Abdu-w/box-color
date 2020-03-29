@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap");
 .App {
   text-align: center;
 }
@@ -12,6 +13,9 @@
   justify-content: center;
 }
 .innerText{
-  margin-top: 35%;
+  margin-top: 25%;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 25px;
+  font-weight: bolder;
   
 }
