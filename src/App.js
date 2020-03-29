@@ -35,9 +35,12 @@ export default class  App extends Component {
   render(){
     return (
       <div className="App">
-       <h1 className="description"> Box-Color Change on Click </h1>
-        <div className='box'>
-           <div className='innerText'>Click Here</div>
+        <h1 className="description"> Box-Color Change on Click </h1>
+        <div 
+          className='box' 
+          style={{ backgroundColor: this.state.color }} 
+          onClick={this.toggleColor}>
+            <div className='innerText'>Click Here</div>
         </div>
       
       </div>
