@@ -9,7 +9,15 @@ export default class  App extends Component {
     super(props)
     this.state = {
       color: 'blue',
+      on: false,
    
+    }
+  }
+  toggleColor = () => {)
+    if(this.state.on === false) {
+      this.setState({
+        color: 'purple'
+       })
     }
   }
  
