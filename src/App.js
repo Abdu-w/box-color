@@ -14,13 +14,22 @@ export default class  App extends Component {
    
     }
   }
-  toggleColor = () => {)
+  
+  toggleColor = () => {
+    this.setState({ count : this.state.count + 1 })
     if(this.state.on === false) {
       this.setState({
+        on: true,
         color: 'purple'
+       })
+    } else {
+      this.setState({
+        on: false,
+        color: 'blue'
        })
     }
   }
+
  
 
   render(){
