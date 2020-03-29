@@ -30,7 +30,7 @@ export default class  App extends Component {
   render(){
     return (
       <div className="App">
-        <h1 className="description"> Box-Color Change on Click {this.state.count}</h1>
+        <h1 className="text"> Box-Color Change on Click {this.state.count}</h1>
         <div 
           className='box' 
           style={{ backgroundColor: this.state.color }} 
