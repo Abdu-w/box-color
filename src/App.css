@@ -1,3 +1,17 @@
 .App {
   text-align: center;
 }
+.box{
+  height: 120px;
+  width: 120px;
+  background-color: blueviolet;
+  margin-left: 45%;
+  text-align: center;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+.innerText{
+  margin-top: 35%;
+  
+}
