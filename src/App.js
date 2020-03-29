@@ -10,6 +10,7 @@ export default class  App extends Component {
     this.state = {
       color: 'blue',
       on: false,
+      count: 0
    
     }
   }
