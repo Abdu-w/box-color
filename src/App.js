@@ -5,12 +5,21 @@ import './App.css';
 // onclick create a function that stich color 
 // set a state where color can chage 
 export default class  App extends Component {
+  // constructor(props) {
+  //   super(props)
+  //   this.state = {
+   
+  //   }
+  // }
  
 
   render(){
     return (
       <div className="App">
-      
+       <h1 className="description"> Box-Color Change on Click </h1>
+        <div className='box'>
+           <div className='innerText'>Click Here</div>
+        </div>
       
       </div>
 
