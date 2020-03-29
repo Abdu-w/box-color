@@ -1,17 +1,14 @@
 import React, {Component} from 'react';
 import './App.css';
 
-// create a box with div
-// onclick create a function that stich color 
-// set a state where color can chage 
+
 export default class  App extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      color: 'blue',
       on: false,
+      color: 'blue',
       count: 0
-   
     }
   }
   
@@ -30,12 +27,10 @@ export default class  App extends Component {
     }
   }
 
- 
-
   render(){
     return (
       <div className="App">
-        <h1 className="description"> Box-Color Change on Click </h1>
+        <h1 className="description"> Box-Color Change on Click {this.state.count}</h1>
         <div 
           className='box' 
           style={{ backgroundColor: this.state.color }} 
